@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2016/01/11/task-item-list.html</loc>
-<lastmod>2016-01-11T00:00:00+08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/misc/2016/05/19/super-short-article.html</loc>
-<lastmod>2016-05-19T00:00:00+08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2016/05/20/my-example-post.html</loc>
-<lastmod>2016-05-20T00:00:00+08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/misc/2016/05/20/super-long-article.html</loc>
-<lastmod>2016-05-20T00:00:00+08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles.html</loc>
-<lastmod>2016-05-20T00:00:00+08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2016/05/20/welcome-to-jekyll.html</loc>
-<lastmod>2016-05-20T00:00:00+08:00</lastmod>
+<loc>http://localhost:4000/2020/12/17/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github-pages%E5%92%8Cjekyll%E6%9D%A5%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html</loc>
+<lastmod>2020-12-17T00:00:00+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>

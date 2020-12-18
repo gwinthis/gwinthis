@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 如何使用github pages和jekyll来搭建博客
-tags: 应用流程
+tags: [博客搭建, jekyll]
+categories: 应用流程
 ---
 
 搭建博客用来总结自己学习的思考，同时也记录自己的所看、所听、所读、所思。第一篇文章先总结下如何使用github pages和jekyll来搭建博客。

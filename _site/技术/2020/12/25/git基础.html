@@ -204,11 +204,19 @@
 
 <p>既然有三个工作区，文件的生命周期就有三部分状态：committed 、modified、staged。已提交表示数据已经安全的保存在本地数据库中。 已修改表示修改了文件，但还没保存到数据库中。 已暂存表示对一个已修改文件的当前版本做了标记，使之包含在下次提交的快照中。</p>
 
-<p>git的三个概念了解清楚之后，git命令就很容易掌握了。从无到有的时候，我们首先要创建一个仓库，一般有两种方式：<br />
+<p>git的工作区了解清楚之后，git的工作区命令就很容易掌握了。从无到有的时候，我们首先要创建一个仓库，一般有两种方式：<br />
 1）本地初始化 git init；<br />
 2）从其他服务器clone, git clone [url]。</p>
 
 <p>仓库刚初始化的时候，无论采用何种方式，文件的初始状态都是stated并且unmodified的状态。在操作的过程，我们会修改原有文件，状态会成为modifid，add之后会成为staged状态，commit之后会重新成为unmodified。我们新增加文件的时候，状态是untracked，add之后成为stated，commit之后成为unmodified。我们删除一个原有文件时，文件状态会从unmodified改成untracked。如果修改git commit的内容，可以使用git commit –amend</p>
+
+<p>除了工作区，git还有一个非常重要的概念，就是分支。为什么需要分支管理，因为突发事件，当我们想专心做一件事情的时候，总会有突发灵感或线上故障的情况。这个时候，我们要做的是基于一个版本再开辟一个工作空间来开发。git的分支与传统分布式管理系统有本质的差别，例如svn每个分支都是一套文件，而git的分支仅仅是一个指针，指向commits一个节点的指针。好，我们又引出了一个概念：commits。</p>
+
+<p>commits是commit对象集合，每个commit对象包括以下内容：作者、提交者、提交树、父提交对象id。每个commit对象都会引用父对象的id，用来关联上一个提交内容，而整个commits是一个有向无环图。提交树包括目录结构以及每个提交文件的对象索引，每个对象索引关联一个blob对象，也就是每个文件提交时刻的快照。git在commits基础上，做指针的快进（merge）、commit对象重新生成（rebase）和回滚。了解分支和commit对象的概念之后，围绕这两个概念的命令也更容易理解。常用的命令包括：<br />
+1) git branch<br />
+2) git checkout<br />
+3) git merge<br />
+4) git rebase</p>
 
 
   </div>
@@ -261,15 +269,23 @@
 
     <nav class="post-pagination" role="navigation">
       
-        <a class="post-previous" href="/2020/12/25/%E4%B8%89%E4%BB%B6%E5%A5%BD%E4%BA%8B%E5%84%BF.html">
+        <a class="post-previous" href="/%E7%AE%A1%E7%90%86/2020/12/23/%E5%90%88%E4%BD%9C%E7%9A%84%E5%8A%9B%E9%87%8F-%E6%80%BB%E7%BB%93%E4%B9%8B%E9%A2%86%E5%AF%BC%E5%8A%9B.html">
           <h4 class="post-pagination-label">Prev</h4>
           <span class="post-pagination-title">
-            <i class="fas fa-arrow-left"></i> 记录三件好事儿
+            <i class="fas fa-arrow-left"></i> 《合作的力量》总结之领导力
 
           </span>
         </a>
       
 
+      
+        <a class="post-next" href="/2020/12/29/%E4%B8%89%E4%BB%B6%E5%A5%BD%E4%BA%8B%E5%84%BF.html">
+          <h4 class="post-pagination-label">Next</h4>
+          <span class="post-pagination-title">
+            记录三件好事儿
+ <i class="fas fa-arrow-right"></i>
+          </span>
+        </a>
       
     </nav>
   </footer>

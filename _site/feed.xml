@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-12-28T22:03:48+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">gwinthis</title><subtitle>A minimal and beautiful Jekyll theme best for writing and note-taking.</subtitle><author><name>阿耿</name></author><entry><title type="html">记录三件好事儿</title><link href="http://localhost:4000/2020/12/25/%E4%B8%89%E4%BB%B6%E5%A5%BD%E4%BA%8B%E5%84%BF.html" rel="alternate" type="text/html" title="记录三件好事儿" /><published>2020-12-25T00:00:00+08:00</published><updated>2020-12-25T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/25/%20%E4%B8%89%E4%BB%B6%E5%A5%BD%E4%BA%8B%E5%84%BF</id><content type="html" xml:base="http://localhost:4000/2020/12/25/%E4%B8%89%E4%BB%B6%E5%A5%BD%E4%BA%8B%E5%84%BF.html">&lt;p&gt;每天多主动关注和创造美好的事情，让自己的心情保持良好。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-12-29T21:30:09+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">gwinthis</title><subtitle>A minimal and beautiful Jekyll theme best for writing and note-taking.</subtitle><author><name>阿耿</name></author><entry><title type="html">记录三件好事儿</title><link href="http://localhost:4000/2020/12/29/%E4%B8%89%E4%BB%B6%E5%A5%BD%E4%BA%8B%E5%84%BF.html" rel="alternate" type="text/html" title="记录三件好事儿" /><published>2020-12-29T00:00:00+08:00</published><updated>2020-12-29T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/29/%20%E4%B8%89%E4%BB%B6%E5%A5%BD%E4%BA%8B%E5%84%BF</id><content type="html" xml:base="http://localhost:4000/2020/12/29/%E4%B8%89%E4%BB%B6%E5%A5%BD%E4%BA%8B%E5%84%BF.html">&lt;p&gt;每天多主动关注和创造美好的事情，让自己的心情保持良好。&lt;/p&gt;
+
+&lt;h1 id=&quot;2020-12-29&quot;&gt;2020-12-29&lt;/h1&gt;
+&lt;p&gt;1、吃早餐   &lt;br /&gt;
+2、系统学习git&lt;br /&gt;
+3、同小胖一起吃晚饭&lt;/p&gt;
 
 &lt;h1 id=&quot;2020-12-28&quot;&gt;2020-12-28&lt;/h1&gt;
 &lt;p&gt;1、及时去医院看病&lt;br /&gt;
@@ -99,11 +104,19 @@
 
 &lt;p&gt;既然有三个工作区，文件的生命周期就有三部分状态：committed 、modified、staged。已提交表示数据已经安全的保存在本地数据库中。 已修改表示修改了文件，但还没保存到数据库中。 已暂存表示对一个已修改文件的当前版本做了标记，使之包含在下次提交的快照中。&lt;/p&gt;
 
-&lt;p&gt;git的三个概念了解清楚之后，git命令就很容易掌握了。从无到有的时候，我们首先要创建一个仓库，一般有两种方式：&lt;br /&gt;
+&lt;p&gt;git的工作区了解清楚之后，git的工作区命令就很容易掌握了。从无到有的时候，我们首先要创建一个仓库，一般有两种方式：&lt;br /&gt;
 1）本地初始化 git init；&lt;br /&gt;
 2）从其他服务器clone, git clone [url]。&lt;/p&gt;
 
-&lt;p&gt;仓库刚初始化的时候，无论采用何种方式，文件的初始状态都是stated并且unmodified的状态。在操作的过程，我们会修改原有文件，状态会成为modifid，add之后会成为staged状态，commit之后会重新成为unmodified。我们新增加文件的时候，状态是untracked，add之后成为stated，commit之后成为unmodified。我们删除一个原有文件时，文件状态会从unmodified改成untracked。如果修改git commit的内容，可以使用git commit –amend&lt;/p&gt;</content><author><name>阿耿</name></author><category term="技术" /><category term="技术" /><category term="配置管理" /><category term="git" /><category term="研发" /><summary type="html">一个明智的人总是抓住机遇，把它变成美好的未来。——托·富勒</summary></entry><entry><title type="html">《合作的力量》总结之领导力</title><link href="http://localhost:4000/%E7%AE%A1%E7%90%86/2020/12/23/%E5%90%88%E4%BD%9C%E7%9A%84%E5%8A%9B%E9%87%8F-%E6%80%BB%E7%BB%93%E4%B9%8B%E9%A2%86%E5%AF%BC%E5%8A%9B.html" rel="alternate" type="text/html" title="《合作的力量》总结之领导力" /><published>2020-12-23T00:00:00+08:00</published><updated>2020-12-23T00:00:00+08:00</updated><id>http://localhost:4000/%E7%AE%A1%E7%90%86/2020/12/23/%E3%80%8A%E5%90%88%E4%BD%9C%E7%9A%84%E5%8A%9B%E9%87%8F%E3%80%8B%E6%80%BB%E7%BB%93%E4%B9%8B%E9%A2%86%E5%AF%BC%E5%8A%9B</id><content type="html" xml:base="http://localhost:4000/%E7%AE%A1%E7%90%86/2020/12/23/%E5%90%88%E4%BD%9C%E7%9A%84%E5%8A%9B%E9%87%8F-%E6%80%BB%E7%BB%93%E4%B9%8B%E9%A2%86%E5%AF%BC%E5%8A%9B.html">&lt;blockquote&gt;
+&lt;p&gt;仓库刚初始化的时候，无论采用何种方式，文件的初始状态都是stated并且unmodified的状态。在操作的过程，我们会修改原有文件，状态会成为modifid，add之后会成为staged状态，commit之后会重新成为unmodified。我们新增加文件的时候，状态是untracked，add之后成为stated，commit之后成为unmodified。我们删除一个原有文件时，文件状态会从unmodified改成untracked。如果修改git commit的内容，可以使用git commit –amend&lt;/p&gt;
+
+&lt;p&gt;除了工作区，git还有一个非常重要的概念，就是分支。为什么需要分支管理，因为突发事件，当我们想专心做一件事情的时候，总会有突发灵感或线上故障的情况。这个时候，我们要做的是基于一个版本再开辟一个工作空间来开发。git的分支与传统分布式管理系统有本质的差别，例如svn每个分支都是一套文件，而git的分支仅仅是一个指针，指向commits一个节点的指针。好，我们又引出了一个概念：commits。&lt;/p&gt;
+
+&lt;p&gt;commits是commit对象集合，每个commit对象包括以下内容：作者、提交者、提交树、父提交对象id。每个commit对象都会引用父对象的id，用来关联上一个提交内容，而整个commits是一个有向无环图。提交树包括目录结构以及每个提交文件的对象索引，每个对象索引关联一个blob对象，也就是每个文件提交时刻的快照。git在commits基础上，做指针的快进（merge）、commit对象重新生成（rebase）和回滚。了解分支和commit对象的概念之后，围绕这两个概念的命令也更容易理解。常用的命令包括：&lt;br /&gt;
+1) git branch&lt;br /&gt;
+2) git checkout&lt;br /&gt;
+3) git merge&lt;br /&gt;
+4) git rebase&lt;/p&gt;</content><author><name>阿耿</name></author><category term="技术" /><category term="技术" /><category term="配置管理" /><category term="git" /><category term="研发" /><summary type="html">一个明智的人总是抓住机遇，把它变成美好的未来。——托·富勒</summary></entry><entry><title type="html">《合作的力量》总结之领导力</title><link href="http://localhost:4000/%E7%AE%A1%E7%90%86/2020/12/23/%E5%90%88%E4%BD%9C%E7%9A%84%E5%8A%9B%E9%87%8F-%E6%80%BB%E7%BB%93%E4%B9%8B%E9%A2%86%E5%AF%BC%E5%8A%9B.html" rel="alternate" type="text/html" title="《合作的力量》总结之领导力" /><published>2020-12-23T00:00:00+08:00</published><updated>2020-12-23T00:00:00+08:00</updated><id>http://localhost:4000/%E7%AE%A1%E7%90%86/2020/12/23/%E3%80%8A%E5%90%88%E4%BD%9C%E7%9A%84%E5%8A%9B%E9%87%8F%E3%80%8B%E6%80%BB%E7%BB%93%E4%B9%8B%E9%A2%86%E5%AF%BC%E5%8A%9B</id><content type="html" xml:base="http://localhost:4000/%E7%AE%A1%E7%90%86/2020/12/23/%E5%90%88%E4%BD%9C%E7%9A%84%E5%8A%9B%E9%87%8F-%E6%80%BB%E7%BB%93%E4%B9%8B%E9%A2%86%E5%AF%BC%E5%8A%9B.html">&lt;blockquote&gt;
   &lt;p&gt;“我能够召唤地心深处的幽魂”（格伦道尔）&lt;br /&gt;
 “召唤谁不会？我也能；问题是他们肯来吗？”（豪斯白）&lt;/p&gt;
   &lt;p align=&quot;right&quot;&gt;-----莎士比亚，《亨利五世》（第一幕）&lt;/p&gt;

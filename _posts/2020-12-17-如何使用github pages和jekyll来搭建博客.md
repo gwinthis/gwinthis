@@ -23,7 +23,8 @@ repo名字务必使用< username >.github.io，其中< username >用你自己的
 2、[安装Jekyll](https://jekyllrb.com/docs/)
 
 Jekyll的运行依赖ruby，要尽量使用ruby最高版本，笔者用的是2.7.2
-，建议使用[rvm](https://rvm.io/rvm/install)来安装比较靠谱。
+，建议使用[rvm](https://rvm.io/rvm/install)来安装比较靠谱。bundle install之前先配置 $ bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+
 
 3、[使用Jekyll模版](http://jekyllthemes.org/)
 
